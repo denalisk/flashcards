@@ -1,0 +1,19 @@
+.Definition {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Term {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.col-md-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 200px;
+}
