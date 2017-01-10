@@ -4,7 +4,7 @@
 
 .Definition {
   display: none;
-  padding-bottom: 60px;
+  background-color: #c4d4ed;
 }
 
 h1 {
@@ -14,19 +14,15 @@ h1 {
 .Term {
   text-align: center;
   font-weight: bold;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-top: 50px;
   font-size: 20px;
 }
 
 .col-md-3 {
   padding-left: 0px;
   padding-right: 0px;
-  height: 200px;
-}
-
-.flashcard-color {
-  background-color: #c4d4ed;
+  height: 220px;
 }
 
 .Term, .Definition {
@@ -39,4 +35,15 @@ ul {
 
 ul, p.Definition {
   margin-top: 20px;
+}
+
+.border {
+  border: solid black 3px;
+  margin-right: 10px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+p {
+  padding: 20px;
 }
