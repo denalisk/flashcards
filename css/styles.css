@@ -17,3 +17,11 @@ h1 {
   padding-right: 0px;
   height: 200px;
 }
+
+.flashcard-color {
+  background-color: #c4d4ed;
+}
+
+.Term, .Definition {
+  cursor: crosshair;
+}
