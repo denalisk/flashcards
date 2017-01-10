@@ -25,3 +25,11 @@ h1 {
 .Term, .Definition {
   cursor: crosshair;
 }
+
+ul {
+  margin-left: 25px;
+}
+
+ul, p.Definition {
+  margin-top: 20px;
+}
