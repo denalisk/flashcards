@@ -11,4 +11,17 @@ $(document).ready(function() {
     cardClick.prev().toggle();
     cardClick.closest(".col-md-3").toggleClass("flashcard-color");
   });
+  $(".reset-button").click(function() {
+    $(".Definition").hide();
+    $(".Term").show();
+    $(".col-md-3").removeClass("flashcard-color");
+
+  });
+  $(".showall-button").click(function() {
+    $(".Term").hide();
+    $(".Definition").show();
+    $(".col-md-3").removeClass("flashcard-color");
+    $(".col-md-3").addClass("flashcard-color");
+
+  });
 });

@@ -1,5 +1,10 @@
+.btn {
+  margin-bottom: 30px;
+}
+
 .Definition {
   display: none;
+  padding-bottom: 60px;
 }
 
 h1 {
@@ -10,6 +15,8 @@ h1 {
   text-align: center;
   font-weight: bold;
   padding-top: 80px;
+  padding-bottom: 60px;
+  font-size: 20px;
 }
 
 .col-md-3 {
